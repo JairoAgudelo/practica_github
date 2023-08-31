@@ -1,15 +1,25 @@
 package Ejercicios;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import Servicios.ServiceClassBird;
 import Servicios.ServiceClassRabbit;
 import Servicios.ServicioClasePato;
 >>>>>>> develop
+=======
+import Servicios.ServiceClassBird;
+import Servicios.ServiceClassRabbit;
+import Servicios.ServicioClasePato;
+=======
+import Servicios.ServiciosClases;
+>>>>>>> jairo
+>>>>>>> develop
 import java.util.Scanner;
 
 
 public class MainClases {
+<<<<<<< HEAD
 
     int clases;
     Scanner cap;
@@ -38,3 +48,17 @@ public class MainClases {
     }
     
 }
+=======
+           
+    
+    public static void main(String[] args) {
+        Scanner cap=new Scanner(System.in).useDelimiter("\n");
+        ServiciosClases sc= new ServiciosClases();
+        sc.datosGato();
+        sc.mostrarGato();
+        sc.datosPerro();
+        sc.mostrarPerro();
+    }
+}
+ 
+>>>>>>> jairo
